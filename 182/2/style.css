@@ -1,0 +1,8 @@
+#window{
+    position: absolute;
+    border: 1px solid green;
+    top: 100px;
+    bottom: 50px;
+    left: 10px;
+    right: 200px;
+}
