@@ -1,0 +1,22 @@
+#parent{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+.quad{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: green;
+}
+.num1{
+    top: 0;
+    right: 0;
+}
+.num2{
+    bottom: 0;
+    left: 0;
+}
