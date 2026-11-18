@@ -1,0 +1,22 @@
+#header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#content{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid yellow;
+}
