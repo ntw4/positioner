@@ -1,0 +1,10 @@
+div{
+    width: 400px;
+    text-align: justify;
+}
+.top{
+    float: left;
+}
+.center{
+    float: right;
+}
