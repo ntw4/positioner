@@ -1,0 +1,21 @@
+.quard{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.num1{
+    background-color: red;
+    top: 50px;
+    left: 50px;
+}
+.num2{
+    background-color: blue;
+    top: 130px;
+    left: 130px;
+    z-index: -1;
+}
+.num3{
+    background-color: green;
+    top: 210px;
+    left: 210px;
+}
