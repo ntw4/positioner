@@ -3,7 +3,9 @@
     width: 900px;
     padding: 10px;
     border: 1px solid black;
-    grid-template-columns: 300px 300px 300px;
+    /* grid-template-columns: 300px 300px 300px;
+*/
+    grid-template-columns: repeat(3, 1fr);
 }
 #parent > div{
     border: 1px solid red;
