@@ -1,0 +1,28 @@
+#parent{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    border: 1px solid black;
+}
+#parent > div{
+    padding: 10px;
+    border: 1px solid black;
+}
+#elem1{
+    grid-column: 1 / 4;
+}
+#elem2{
+    grid-column: 1 / 2;
+}
+#elem3{
+    grid-column: 2 / 3;
+}
+#elem4{
+    grid-column: 3 / 4;
+}
+#elem5{
+    grid-column: 1 / 4;
+}
