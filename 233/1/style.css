@@ -1,0 +1,28 @@
+#parent{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    border: 1px solid black;
+}
+.yacheika{
+    padding: 10px;
+    border: 1px solid black;
+}
+#elem1{
+    grid-row: 1 / 2;
+}
+#elem2{
+    grid-row: 2/3;
+}
+#elem3{
+    grid-row: 1/2;
+}
+#elem4{
+    grid-row: 2/4;
+}
+#elem5{
+    grid-row: 3/4;
+}
