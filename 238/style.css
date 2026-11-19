@@ -1,6 +1,13 @@
 #parent{
-
+    display: grid;
+    width: 600px;
+    height: 400px;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 25%;
+    padding: 10px;
+    border: 1px solid black;
 }
 #parent > div{
-    
+    padding: 10px;
+    border: 1px solid black;
 }
