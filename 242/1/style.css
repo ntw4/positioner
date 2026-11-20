@@ -1,0 +1,46 @@
+.conteiner{
+    width: 800px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+#menu{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    background-color: #484848;
+}
+#menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #484848;
+    color: white;
+    text-decoration: none;
+    font: bold Arial 14;
+}
+#menu a:hover, #menu a.active{
+    background-color: white;
+    color: #484848;
+}
+.content{
+    padding: 10px;
+}
+.content h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.content p {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.content a{
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+}
+.content a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
