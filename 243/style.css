@@ -1,12 +1,50 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
-
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    background-color: green;
+    color: white;
 }
 main{
-
+    margin-top: 20px;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main ol{
+    list-style-position: inside;
+}
+main li{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.red_contacts{
+    background-color: rgb(185, 2, 2);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 footer{
-    
+    background-color: darkorange;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
 }
 header div h1, header div h3 {
 
+}
+.white_and_center{
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.margin_div{
+    margin-bottom: 50px;
 }
