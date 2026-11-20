@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}
+.conteiner{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.content{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.content h2{
+    margin-top: 0;
+}
+.content h2 a{
+    text-decoration: none;
+}
+.content h2 a:hover{
+    text-decoration: underline;
+}
+.content p{
+    text-align: justify;
+}
+.content a{
+    text-decoration: none;
+}
+.button_more{
+    display: flex;
+    justify-content: end;
+}
