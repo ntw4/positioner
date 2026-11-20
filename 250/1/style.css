@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: orange;
+}
+header a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+header a:hover, header a.active{
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+.container main{
+    width: 65%;
+}
+.container aside{
+    width: 33%;
+}
+.container main img{
+    width: 100%;
+}
+.container main h1, .container aside h3, .container main h2 .container p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+main table{
+    width: 100%;
+    margin-top: 0;
+}
+main table tr td{
+    border: 1px solid black;
+}
+main .head_table{
+    font-weight: bold;
+    background-color: lightgray;
+
+}
