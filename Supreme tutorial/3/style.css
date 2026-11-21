@@ -1,0 +1,9 @@
+/* 
+text-align-last
+устанавливает выравнивание последней строки текста: по левому краю, по правому, по центру, по левому и правому краям одновременно
+значения center | left | right | justify | auto | start | end;
+*/
+p{
+    width: 210px;
+    text-align-last: right;
+}

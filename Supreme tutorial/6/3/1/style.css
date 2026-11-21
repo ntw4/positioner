@@ -1,0 +1,13 @@
+p{
+    width: 200px;
+    border: 1px solid black;
+}
+#elem1{
+    white-space: pre;
+}
+#elem2{
+    white-space: pre-wrap;
+}
+#elem3{
+    white-space: pre-line;
+}

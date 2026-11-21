@@ -1,0 +1,9 @@
+/* 
+p::first-letter
+запись p две двоетоии и вот это
+туда можо измять цвет color размер и т д
+*/
+p::first-letter{
+    color: red;
+    font-size: 20px;
+}

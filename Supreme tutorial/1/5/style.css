@@ -1,0 +1,5 @@
+/* letter-spacing: значение; между буквами
+word-spacing между словами растояние */
+p{
+    word-spacing: 0;
+}

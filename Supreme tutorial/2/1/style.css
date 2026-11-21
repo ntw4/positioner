@@ -1,0 +1,15 @@
+/* 
+text-transform перевод в регистр
+capitalize каждое слово с большой буквой
+lowercase всё маленькими
+uppercase всё заглавными
+none не чего не меняет
+
+font-variant
+делает маленькие буквы заглаными при это размер остается как у малеьких
+small-caps выполняет это
+normal отменяет действие small-caps
+*/
+p{
+    text-transform: uppercase;
+}

@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+h1, h2, h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+header{
+    display: flex;
+    background-color: #484848;
+}
+header nav{
+    display: flex;
+    justify-content: flex-start;
+}
+header nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    height: 100%;
+}
+header nav a:hover, header nav .active{
+    background-color: #5c5c5c;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+.gray_header{
+    background-color: #484848;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.content aside{
+    width: 290px;
+}
+.content main{
+    width: 540px;
+}
+footer{
+    background-color: #484848;
+    padding: 30px;
+}
+footer div div{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+footer .footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #484848;
+}
+footer section{
+    width: 280px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
+footer section h2{
+    margin-top: 10px;
+}
+footer section p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.footer_section_1{
+    border-bottom: 1px solid gray;
+}
+footer .copyright {
+    margin: 0;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}

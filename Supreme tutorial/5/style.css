@@ -1,0 +1,15 @@
+/* 
+::first-line
+изменяе силь первой строчки тоже цвет и т д
+*/
+div{
+    width: 800px;
+    margin: 0px auto;
+}
+p{
+    text-align: justify;
+}
+p::first-line{
+    color: red;
+    font-style: italic;
+}

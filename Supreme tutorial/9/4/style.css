@@ -1,0 +1,12 @@
+/* 
+text-overflow: ellipsis | clip;
+Свойство text-overflow добавляет троеточие в конец обрезанного текста в знак того, что текст не помещался в блок и был обрезан.
+Для работы свойства текст должен быть обрезан через свойство overflow или свойство overflow-x в значении hidden, auto или scroll. Если задано visible (а так и есть по умолчанию) - text-overflow работать не будет.
+*/
+div{
+    white-space: pre;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
