@@ -11,3 +11,8 @@ column-width ширина одной колонки
 получается делает линию между колонками ровно между
 
 */
+div{
+    width: 80%;
+    column-width: 300px;
+    border: 1px solid black;
+}
