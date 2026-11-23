@@ -1,0 +1,5 @@
+div{
+    width: min(400px, 30%);
+    height: 100px;
+    border: 1px solid black;
+}
