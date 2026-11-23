@@ -1,0 +1,13 @@
+table{
+    border: 1px solid black;
+    border-spacing: 20px;
+}
+td{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    vertical-align: bottom;
+    text-align: end;
+}
