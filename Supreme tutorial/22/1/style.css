@@ -1,6 +1,16 @@
 table {
-
+    width: 600px;
 }
 td{
-    
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+}
+#fixed{
+    table-layout: fixed;
+}
+#auto{
+    table-layout: auto;
 }
