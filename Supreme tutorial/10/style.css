@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    border: 1px solid black;
+}
+#elem1{
+    overflow-wrap: normal;
+}
+#elem2{
+    overflow-wrap: break-word;
+}
+#elem3{
+    word-break: break-all;
+}
+#elem4{
+    word-break: keep-all;
+}
+#elem5{
+    word-break: normal;
+}
