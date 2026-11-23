@@ -1,0 +1,14 @@
+span{
+    position: relative;
+}
+
+span::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    z-index: 2;
+}
