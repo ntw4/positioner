@@ -1,0 +1,8 @@
+input:focus{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+input:disabled{
+    border: 1px solid red;
+}
