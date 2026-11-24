@@ -1,0 +1,14 @@
+textarea{
+    width: 250px;
+    height: 100px;
+}
+.resize_none{
+    resize: none;
+    width: 200px;
+    height: 50px;
+}
+form{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+}
