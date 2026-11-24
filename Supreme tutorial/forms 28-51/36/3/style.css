@@ -1,0 +1,16 @@
+form{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-row-gap: 10px;
+}
+input{
+    width: auto;
+    height: 30px;
+}
+textarea{
+    width: auto;
+    height: 100px;
+}
+input::placeholder, textarea::placeholder{
+    color: green;
+}
