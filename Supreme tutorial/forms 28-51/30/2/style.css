@@ -1,4 +1,10 @@
 form{
     display: grid;
-    grid-column: 1fr;
+    width: 250px;
+    grid-template-columns: 150px auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+input{
+    height: 30px;
 }
