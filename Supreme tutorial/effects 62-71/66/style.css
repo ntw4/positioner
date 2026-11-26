@@ -1,0 +1,11 @@
+#elem{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    transition-property: transform;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
+#elem:hover{
+    transform: rotate(45deg);
+}
