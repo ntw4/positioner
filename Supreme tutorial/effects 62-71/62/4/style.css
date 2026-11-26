@@ -1,3 +1,12 @@
 div{
-    
+    width: 600px;
+    height: 100px;
+    margin-left: 20px;
+    border: 1px solid red;
+    transition-property: all;
+    transition-duration: 2s;
+}
+div:hover{
+    width: 800px;
+    margin-left: 30%;
 }

@@ -1,3 +1,16 @@
-div{
-    
+input{
+    outline: none;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 3px;
+    padding: 2px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: liner;
+    box-shadow: none;
+}
+input:hover{
+    border-color: blue;
+    color: blue;
+    box-shadow: 0 0 5px blue;
 }
