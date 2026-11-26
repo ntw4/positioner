@@ -2,5 +2,5 @@ div{
     width: 200px;
     height: 200px;
     border: 1px solid black;
-    
+    background: repeating-linear-gradient(to right, white 0px, white 5px, black 5px, black 10px);
 }
