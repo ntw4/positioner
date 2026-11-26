@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: linear;
+    margin: 50px;
+    transform-origin: center center;
+}
+div:hover{
+    transform: rotate(45deg);
+}
