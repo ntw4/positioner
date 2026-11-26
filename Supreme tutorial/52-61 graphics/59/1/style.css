@@ -2,5 +2,5 @@ div{
     width: 200px;
     height: 200px;
     border: 1px solid black;
-    background: radial-gradient(white, rgb(0, 153, 255));
+    background: radial-gradient(white, blue);
 }
