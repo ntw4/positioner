@@ -1,0 +1,25 @@
+.parent {
+	display: flex;
+	width: 700px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+	flex-grow: 1;
+    /* 150px */
+}
+.elem2 {
+	width: 100px;
+	flex-grow: 2;
+    /* 200px */
+}
+.elem3 {
+	width: 200px;
+	flex-grow: 3;
+    /* 350px */
+}
