@@ -1,0 +1,18 @@
+div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px auto;
+    transform: rotate(-5deg);
+}
+a{
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 15px;
+    transition-duration: 1s;
+    transition-property: all;
+    color: blue;
+}
+a:hover{
+    transform: scale(1.1) skew(-5deg);
+}
