@@ -1,0 +1,15 @@
+.parent{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border: 1px solid red;
+}
+.child{
+    width: 200px;
+    border: 1px solid green;
+    flex-shrink: 1;
+}
+.big_child{
+    width: 400px;
+    flex-shrink: 2;
+}

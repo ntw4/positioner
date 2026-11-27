@@ -1,0 +1,33 @@
+.parent {
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+/* 400
+    1700
+*/
+.elem1 {
+	width: 300px;
+	flex-shrink: 3;
+    /* 88,3px */
+}
+.elem2 {
+	width: 200px;
+	flex-shrink: 2;
+    /* 105,9 */
+}
+.elem3 {
+	width: 200px;
+	flex-shrink: 1;
+    /* 153px */
+}
+.elem4 {
+	width: 200px;
+	flex-shrink: 1;
+    /* 153px */
+}
