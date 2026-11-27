@@ -1,0 +1,17 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    border: 1px solid red;
+}
+.child{
+    box-sizing: border-box;
+    width: calc(100% / 5 - 50px * 4 / 5 );
+    height: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 1px solid green;
+}
+.child:nth-child(5n){
+    margin-right: 0;
+}
