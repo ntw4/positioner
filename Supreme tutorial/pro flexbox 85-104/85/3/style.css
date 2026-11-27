@@ -8,6 +8,7 @@
 .child{
     flex-basis: 100px;
     border: 1px solid green;
+    height: 200px;
 }
 .elem1{
     flex-direction: row;

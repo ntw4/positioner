@@ -6,6 +6,7 @@
     margin-bottom: 20px;
 }
 .child{
+    width: 200px;
     flex-basis: 100px;
     border: 1px solid green;
 }
