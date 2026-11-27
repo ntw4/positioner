@@ -1,0 +1,6 @@
+.child {
+	flex-shrink: 0.5;
+	flex-grow: 1;
+    /* переписаный */
+    flex: 1 0.5;
+}

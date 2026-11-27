@@ -1,0 +1,7 @@
+.child {
+	flex: 1 2 200px;
+    /* переписаный */
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 200px;
+}
