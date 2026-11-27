@@ -1,0 +1,33 @@
+#center{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 100px auto;
+}
+#spyt{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: -100px auto;
+    transform-origin: center 400%;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+@keyframes move{
+    from{
+        transform: rotate(-1turn);
+        background-color: white;
+    }
+    33%{
+    }
+    66%{
+        background-color: red;
+    }
+    to{
+    }
+}
