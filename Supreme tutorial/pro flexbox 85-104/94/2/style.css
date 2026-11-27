@@ -1,0 +1,22 @@
+.parent {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 100px;
+    /* 66px */
+}
+.elem2 {
+	width: 100px;
+    /* 66px */
+}
+.elem3 {
+	width: 100px;
+    /* 66px */
+}
