@@ -1,0 +1,13 @@
+#parent{
+    display: grid;
+    grid: repeat(6, 1fr) / repeat(2, 1fr);
+    padding: 10px;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+}
+#parent > div{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+}
