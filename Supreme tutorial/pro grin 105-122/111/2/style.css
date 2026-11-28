@@ -1,0 +1,16 @@
+#parent{
+    display: grid;
+    justify-items: center;
+    width: 400px;
+    height: 300px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(2, 1fr);
+    border: 1px solid black;
+    padding: 10px;
+    grid-gap: 10px;
+}
+#parent > div{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black     ;
+}
