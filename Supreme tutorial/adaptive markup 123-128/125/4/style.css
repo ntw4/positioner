@@ -1,0 +1,48 @@
+#parent{
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+}
+.child{
+    border: 1px solid green;
+    box-sizing: border-box;
+    padding: 10px;
+}
+@media (min-width: 800px) {
+    #parent{
+        justify-content: space-between;
+    }
+    .elem2 {
+        width: 59.5%;
+    }
+    .elem1, .elem3{
+        width: 19.5%;
+    }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+    #parent{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .elem2 {
+        width: 100%;
+        order: -1;
+    }
+    .elem1, .elem3{
+        width: 49.5%;
+    }
+    .child{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 500px) {
+    #parent{
+        flex-direction: column;
+    }
+    .child{
+        margin-bottom: 10px;
+    }
+    .elem2{
+        order: -1;
+    }
+}

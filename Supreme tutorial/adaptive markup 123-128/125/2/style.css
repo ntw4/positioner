@@ -1,0 +1,30 @@
+#parent{
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+}
+.child{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+@media (min-width: 500px) {
+    #parent{
+        justify-content: space-between;
+    }
+    .elem1{
+        width: 59.5%;
+    }
+    .elem2, .elem3{
+        width: 19.5%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .child{
+        margin-bottom: 10px;
+    }
+    #parent{
+        flex-direction: column;
+    }
+}
