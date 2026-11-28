@@ -1,0 +1,15 @@
+#parent{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center center;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#parent > div{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+}
