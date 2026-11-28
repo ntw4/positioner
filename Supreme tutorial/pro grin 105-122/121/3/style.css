@@ -1,0 +1,25 @@
+#parent{
+    display: grid;
+    grid-template: repeat(3, 1fr) /  repeat(2, 1fr);
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+#parent > div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.elem{
+    display: subgrid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.elem > div{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    grid-gap: 10px;
+}
